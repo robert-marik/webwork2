@@ -8,6 +8,7 @@ super_persistance,"Green Never Looked So Good",107,secret,"default,jitar","Solve
 super_speed_math,"Careful Planning and Quick Fingers",108,secret,default,"Spend less than 10 minutes entering answers to a homework set.",20,,super_speed_math.at,super_speed_math.png
 hows_your_finger,"Hows Your Finger?",109,secret,"default,jitar","Have more than 250 submissions on a homework problem.  ",10,,hows_your_finger.at,hows_your_finger.png
 third_time,"Third Times the Charm",110,secret,"default,jitar","Solve a problem on the third submission",10,,third_time.at,third_time.png
+last_attempt,"Solved on Your Last Attempt",111,secret,"default,jitar","The lucky math student solved the problem using the last available answer.",5,,on_last_attempt.at,lucky.png
 one_click,"One Click Is All I Need",201,one_timer,"default,jitar","Earn 100% on a problem in one attempt.",10,,one_click.at,one_click.png
 on_one_hand,"On One Hand",202,one_timer,default,"Finish a homework set with less than 5 incorrect submissions.",10,,on_one_hand.at,on_one_hand.png
 seeing_green,"Seeing Green",203,one_timer,default,"Finish a homework set with no incorrect submissions.",20,,seeing_green.at,seeing_green.png

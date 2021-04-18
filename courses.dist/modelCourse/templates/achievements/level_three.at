@@ -8,16 +8,10 @@
 #       (Changes to this variable will be saved if a new level is earned.) 
 #  These variables are used to construct the users level progress bar
 
-#Constants:
-#Threshold for level 4
-my $newLevelThreshold = 450;
-
-#Code
-
 if ($achievementPoints >= $nextLevelPoints) {
     #set new threshold and return 1 
-    $globalData->{ExtendDueDate}++;
-    $nextLevelPoints = $newLevelThreshold;
+    $globalData->{$levelAchivementsTresholds{3}{'item'}} =+ $levelAchivementsTresholds{3}{'count'};;
+    $nextLevelPoints = $levelAchivementsTresholds{4}{'count'};
     return 1;
 } else {
     return 0;

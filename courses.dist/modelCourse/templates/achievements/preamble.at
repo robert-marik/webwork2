@@ -1,0 +1,76 @@
+############ Setting thresholds and items for levels
+# List of possible rewards (see the file
+# lib/WeBWorK/AchievementItems.pm and
+# https://webwork.maa.org/wiki/Achievement_Items):
+#
+# ResetIncorrectAttempts
+# DuplicateProb
+# DoubleProb
+# HalfCreditProb
+# FullCreditProb
+# ReducedCred
+# ExtendDueDate
+# DoubleSet
+# ResurrectHW
+# Surprise
+# SuperExtendDueDate
+# HalfCreditSet
+# FullCreditSet
+# AddNewTestGW
+# ExtendDueDateGW
+# ResurrectGW
+
+
+our %levelAchivementsTresholds = (
+1 => {      # level 1
+ 'points' => 0,    # this level is obtained immediatelly
+ 'item' => 'HalfCreditProb',  # the reward
+ 'count' => 1,     # how many items granted 
+},
+2 => {      # level 2
+ 'points' => 150,    # when is this level obtained
+ 'item' => 'ResetIncorrectAttempts',  # the reward
+ 'count' => 1,     # how many items granted 
+},
+3 => {      # level 3
+ 'points' => 300,    # when is this level obtained
+ 'item' => 'ExtendDueDate',  # the reward
+ 'count' => 1,     # how many items granted 
+},
+4 => {      # level 4
+ 'points' => 450,    # when is this level obtained
+ 'item' => 'DoubleProb',  # the reward
+ 'count' => 1,     # how many items granted 
+}, 
+5 => {      # level 5
+ 'points' => 600,    # when is this level obtained
+ 'item' => 'DuplicateProb',  # the reward
+ 'count' => 1,     # how many items granted 
+},
+6 => {      # level 6
+ 'points' => 750,    # when is this level obtained
+ 'item' => 'FullCreditProb',  # the reward
+ 'count' => 1,     # how many items granted 
+},
+7 => {      # level 7
+ 'points' => 900,    # when is this level obtained
+ 'item' => 'SuperExtendDueDate',  # the reward
+ 'count' => 1,     # how many items granted 
+},
+8 => {      # level 8
+ 'points' => 1050,    # when is this level obtained
+ 'item' => 'DoubleSet',  # the reward
+ 'count' => 1,     # how many items granted 
+},
+9 => {      # level 9
+ 'points' => 1200,    # when is this level obtained
+ 'item' => 'ResurrectHW',  # the reward
+ 'count' => 1,     # how many items granted 
+},
+10 => {      # level 10
+ 'points' => 1350,    # when is this level obtained
+ 'item' => 'FullCreditSet',  # the reward
+ 'count' => 1,     # how many items granted 
+}
+    );
+

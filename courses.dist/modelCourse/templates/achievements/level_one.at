@@ -8,16 +8,9 @@
 #       (Changes to this variable will be saved if a new level is earned.) 
 #  These variables are used to construct the users level progress bar
 
-#Constants:
-#Threshold for level 2
-my $newLevelThreshold = 150;
-
-$globalData->{HalfCreditProb}++;
-
-#Code
-
+$globalData->{$levelAchivementsTresholds{1}{'item'}} =+ $levelAchivementsTresholds{1}{'count'};;
 #level 1 is earned immediately
-$nextLevelPoints = $newLevelThreshold;
+$nextLevelPoints = $levelAchivementsTresholds{2}{'points'};
 return 1;
 
 

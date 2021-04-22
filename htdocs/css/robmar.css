@@ -1,0 +1,32 @@
+@media only screen and (min-width: 650px)
+{
+  #output_problem_body img {float:right; max-width:300px; padding-left:20px;}
+}
+
+
+#output_problem_body a {color:blue;}
+
+#output_problem_body .tlacitka a {color:white;}
+
+#output_problem_body .btn-essay {color:white;}
+
+
+.knowl-output {
+  background: #79BE15;
+  border-left: 2px solid #283F2B;;
+  border-right: 2px solid #283F2B;;
+  border-bottom: 2px solid #283F2B;;
+
+}
+
+.radio {
+   width:100%;
+   clear:both;
+   margin-top:1em;
+}
+
+
+#info-panel-right {background-color: yellow;}
+
+#info-panel-right h2 {background-color: black;}
+

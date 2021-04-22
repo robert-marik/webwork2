@@ -1,0 +1,20 @@
+
+<p><img src="http://um.mendelu.cz/ldf-default.jpg" style="width:100%;"></p>
+
+WeBWorK server Ústavu matematiky Mendelovy univerzity v Brně.
+
+
+<p><a href="http://user.mendelu.cz/marik/wiki/doku.php?id=webwork">Informace o práci se
+systémem</a>
+
+<p>Na serveru je nainstalován 
+<ul><li>základní systém 
+WeBWorK v nejnovější verzi v červnu 2020
+<li>lokalizace studentské části systému do češtiny
+<li>knihovna <a href=https://webwork.maa.org/wiki/Open_Problem_Library>Open Problem
+Library</a> obsahující desítky tisíc vzorových
+příkladů pro sestavení domácích úloh z matematiky, statistiky, fyziky,
+mechaniky a příbuzných věd.</ul></p>
+
+<p>
+ This file is at htdocs/mendelu_site_info.txt.  Use it to display information for the entire WeBWorK site which will be viewed at login time.

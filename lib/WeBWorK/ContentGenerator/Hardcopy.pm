@@ -1341,7 +1341,8 @@ sub write_problem_tex {
 
 		my $problemValue = $MergedProblem->value;
 		if (defined($problemValue)) {
-			my $points = $problemValue == 1 ? $r->maketext('point') : $r->maketext('points');
+		        my $points = $problemValue == 1 ? $r->maketext('point') : $r->maketext('points');
+			$points = $r->maketext('points5') unless $problemValue < 5 ||  $r->maketext('points5') eq "" ||  $r->maketext('points5') eq $r->maketext('points');
 			print $FH " {\\bf\\footnotesize($problemValue $points)}";
 		}
 

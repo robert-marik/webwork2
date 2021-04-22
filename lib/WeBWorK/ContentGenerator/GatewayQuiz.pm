@@ -2094,7 +2094,8 @@ sub body {
 
 				my $problemValue = $problems[$probOrder[$i]]->value;
 				if (defined($problemValue)) {
-					my $points = $problemValue == 1 ? $r->maketext('point') : $r->maketext('points');
+				        my $points = $problemValue == 1 ? $r->maketext('point') : $r->maketext('points');
+					$points = $r->maketext('points5') unless $problemValue < 5 ||  $r->maketext('points5') eq "" ||  $r->maketext('points5') eq $r->maketext('points');
 					print "($problemValue $points)";
 				}
 

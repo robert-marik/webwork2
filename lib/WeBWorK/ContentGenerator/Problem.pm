@@ -1265,6 +1265,7 @@ sub title {
 	my $problemValue = $problem->value;
 	if (defined($problemValue) && $problemValue ne "") {
 		my $points = $problemValue == 1 ? $r->maketext('point') : $r->maketext('points');
+		$points = $r->maketext('points5') unless $problemValue < 5 ||  $r->maketext('points5') eq "" ||  $r->maketext('points5') eq $r->maketext('points');
 		$out .= "($problemValue $points)";
 	}
 

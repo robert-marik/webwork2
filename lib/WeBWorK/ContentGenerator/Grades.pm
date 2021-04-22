@@ -46,7 +46,9 @@ sub initialize {
 
 sub body {
 	my ($self) = @_;
-	
+
+        print $self->scoring_info(); # scoring info also on top of the page
+
 	$self->displayStudentStats($self->{studentName});
 	
 	print $self->scoring_info();

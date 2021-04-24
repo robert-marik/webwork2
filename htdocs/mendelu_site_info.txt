@@ -1,5 +1,5 @@
 
-<p><img src="http://um.mendelu.cz/ldf-default.jpg" style="width:100%;"></p>
+<p><img src="/ldf-default.jpg" style="width:100%;"></p>
 
 WeBWorK server Ústavu matematiky Mendelovy univerzity v Brně.
 

@@ -506,7 +506,7 @@ sub DBFieldTable {
 							data_enable_datepicker => $ce->{options}{useDateTimePicker}
 						})
 					) : "",
-				$self->formatDateTime($globalValue,'','%m/%d/%Y at %I:%M%P'),
+				$self->formatDateTime($globalValue,'','%m/%d/%Y at %I:%M%P','en_US'),
 			]
 
 	}

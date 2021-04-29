@@ -461,6 +461,8 @@ sub formatToolTip {  # note that formatToolTip output includes CGI::td wrapper
 	my $self = shift;
 	my $answer = shift;
 	my $formattedAnswer = shift;
+	$answer =~ s/<BR\/>//g;
+	$formattedAnswer =~ s/<BR\/>//g;
 	return CGI::td(CGI::span({
 				"class" => "answer-preview",
 				"data-toggle" => "popover",

@@ -1,0 +1,7 @@
+table.attemptResults td, table.attemptResults th {text-align: left;}
+
+.FeedbackMessage {
+    max-width: 20%;
+    width: 20%;
+}
+

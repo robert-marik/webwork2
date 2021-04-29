@@ -2259,6 +2259,8 @@ sub createEmailSenderTransportSMTP {
 			ssl => $ce->{mail}->{tls_allowed}//0, ## turn off ssl security by default
 			port => $ce->{mail}->{smtpPort},
 			timeout => $ce->{mail}->{smtpTimeout},
+			sasl_username => $ce->{mail}->{saslUsername},
+                        sasl_password => $ce->{mail}->{saslPassword},
 			# debug => 1,
 		});
 	} else {
@@ -2266,6 +2268,8 @@ sub createEmailSenderTransportSMTP {
 			host => $ce->{mail}->{smtpServer},
 			ssl => $ce->{mail}->{tls_allowed}//0, ## turn off ssl security by default
 			timeout => $ce->{mail}->{smtpTimeout},
+			sasl_username => $ce->{mail}->{saslUsername},
+                        sasl_password => $ce->{mail}->{saslPassword},
 			# debug => 1,
 		});
 	}

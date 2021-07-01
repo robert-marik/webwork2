@@ -11,7 +11,7 @@
 if ($achievementPoints >= $nextLevelPoints) {
     #set new threshold and return 1 
     $globalData->{$levelAchivementsTresholds{7}{'item'}} =+ $levelAchivementsTresholds{7}{'count'};;
-    $nextLevelPoints = $levelAchivementsTresholds{8}{'count'};
+    $nextLevelPoints = $levelAchivementsTresholds{8}{'points'};
     return 1;
 } else {
     return 0;
